@@ -1,7 +1,7 @@
 package newbie0.class05;
 
 /**
- * @author liuyandeng
+ * @author Kiteye
  * @date 22/6/2022
  * @Description 位图的实现
  */
