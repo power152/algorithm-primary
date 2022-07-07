@@ -4,6 +4,8 @@ package newbie0.class06;
  * @author Kiteye
  * @date 2/7/2022
  * @Description 从前序与中序遍历序列构造二叉树
+ * 方法一：循环
+ * 方法二：HashMap
  */
 
 public class LeetCode105 {

@@ -3,7 +3,7 @@ package newbie0.class06;
 /**
  * @author Kiteye
  * @date 2/7/2022
- * @Description
+ * @Description 对称二叉树
  */
 
 public class SymmetricTree {
