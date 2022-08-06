@@ -21,7 +21,8 @@ public class LeetCode_46 {
         backtracking (nums,result,visited, new ArrayList<>());
         return result;
     }
-    public void backtracking(int[] nums,List<List<Integer>> result,HashMap<Integer,Boolean> visited,ArrayList<Integer> list) {
+    public void backtracking(int[] nums,List<List<Integer>> result,HashMap<Integer,Boolean>
+            visited,ArrayList<Integer> list) {
         if (list.size() == nums.length) {
             result.add(new ArrayList<Integer>(list));
             return;

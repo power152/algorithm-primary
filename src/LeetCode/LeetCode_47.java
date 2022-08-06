@@ -7,7 +7,10 @@ import java.util.List;
 /**
  * @author Kiteye
  * @date 5/8/2022
- * @Description
+ * @Description 全排列二
+ * 注意：
+ * Boolean因为是一个类，所以他的引用对象可以为null；
+ * Boolean a= null或者Boolean b = new Boolean(null)都是允许的，而基本数据类型boolean只能为true or false。
  */
 
 public class LeetCode_47 {
