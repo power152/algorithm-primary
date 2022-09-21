@@ -49,13 +49,16 @@ public class ShowComparator {
          */
         @Override
         public int compare(Student o1, Student o2) {
-            if (o1.id < o2.id){
+            if (o1.id < o2.id){  // o1 < o2 明显 o1 的年龄小，排在前面 升序
                 return -1;
-            } else if (o2.id < o1.id){
+            } else if (o2.id < o1.id){ // o2 的年龄大，排在后面  降序
                 return 1;
             } else {
                 return 0 ;
             }
+
+            // return o1.id -o2.id <0 升序
+            // return o2.id - o1.id >0 降序
         }
     }
 
