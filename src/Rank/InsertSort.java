@@ -1,6 +1,7 @@
 package Rank;
 
 import java.util.Arrays;
+import java.util.Random;
 
 /**
  * @author Kiteye
@@ -11,6 +12,9 @@ import java.util.Arrays;
 public class InsertSort {
 
     public static void InsertionSort(int[] arr) {
+
+        Random random = new Random();
+
         if (arr == null || arr.length < 2) {
             return;
         }

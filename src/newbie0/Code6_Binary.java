@@ -2,8 +2,14 @@ package newbie0;
 
 import java.util.Arrays;
 
-public class Code6_Binary {
 
+
+public class Code6_Binary {
+    /**
+     * @author Kiteye
+     * @date
+     * @Description 二分查找
+     */
     // 普通二分发，有序数组
     public static boolean BinarySeacher(int[] array, int num) {
         //判断边界
